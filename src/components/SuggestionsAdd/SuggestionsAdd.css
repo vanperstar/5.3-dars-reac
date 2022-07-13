@@ -1,0 +1,78 @@
+.suggestions-add{
+    width: 825px;
+    height: 151px;
+    transform: translateX(35%) translateY(-300%);
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.suggestions-add-item{
+    width: 85%;
+    transform: translateX(50px) translateY(30px);
+}
+
+.suggestions-add-item > h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    
+    color: #3A4374;
+}
+
+.suggestions-add-item > p{
+    margin-top: 4px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #647196;
+}
+
+.suggestions-add > span{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.222222px;
+    color: #3A4374;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.suggestions-add > span::before{
+    content: "";
+    background: url(../SuggestionsAdd/img/xabar.png) no-repeat;
+    width: 18px;
+    height: 16px;
+    display: inline-block;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.suggestions-add-btn{
+    text-align: center;
+
+    height: 53px;
+    padding: 26px 10px 9px 10px;
+    transform: translateX(30px) translateY(28px);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.180556px;
+    color: #3A4374;
+}
+
+.suggestions-add-btn::after{
+    content: "";
+    background: url(../SuggestionsAdd/img/top-vsr.png) no-repeat;
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    transform: translateX(-10px) translateY(-25px);
+}

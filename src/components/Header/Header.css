@@ -1,0 +1,46 @@
+.suggestions-header{
+    align-items: center;
+    color: white;
+    position: absolute;
+    width: 825px;
+    height: 72px;
+    left: 33%;
+    top: 9%;
+    background: #373F68;
+    border-radius: 10px;
+    display: flex;
+}
+
+.suggestions-title{
+    margin: 23px 63px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+}
+
+.suggestions-title::before{
+    content: "";
+    background: url(./sugesstions-before.png) no-repeat;
+    width: 23px;
+    height: 24px;
+    align-items: center;
+    display: inline-block;
+    transform: translateX(-120%) translateY(5px);
+}
+
+dl{
+    display: flex;
+}
+
+.suggestions-button{
+    margin-left: auto;
+    margin-right: 16px;
+    color: white;
+    background: #AD1FEA;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 24px;
+    height: 50%;
+}

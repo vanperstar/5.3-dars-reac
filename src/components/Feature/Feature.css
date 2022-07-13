@@ -1,0 +1,53 @@
+.feature{
+    width: 255px;
+    height: 166px;
+    left: 165px;
+    top: 255px;
+    margin: 24px 0;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.feature-btn-all{
+    width: 48px;
+    height: 30px;
+    border-radius: 10px;
+    background: #4661E6;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.feature-btn-ui{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 24px 10px;
+}
+
+.feature-btn-enhancement{
+    width: 115px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.feature-btn-bug{
+    border-radius: 10px;
+    padding: 6px 16px;
+    height: 30px;
+}
+
+.feature-btn-feature{
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.feature-btn-feature--madifair{
+    transform: translateX(-65%);
+}
