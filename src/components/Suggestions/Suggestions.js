@@ -50,10 +50,15 @@ function Suggestions() {
         },
     ]
 
+    fetch("http://localhost:3001/productRequests")
+    .then(res => res.json())
+    .then(data => console.log(data))
+
     return <>
         <Header />
         {
-            countries.map(country => <Suggestions AddBtn={country.AddBtn} h3={country.h3} p={country.p} button={country.button} span={country.span} />)
+            // countries.map(country => <SuggestionsAdd AddBtn={country.AddBtn} h3={country.h3} p={country.p} button={country.button} span={country.span} />)
+            countries.map(country => <SuggestionsAdd AddBtn={country.AddBtn} h3={country.h3} p={country.p} button={country.button} span={country.span} />)
         }
     </>
 }
